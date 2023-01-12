@@ -14,7 +14,6 @@
     
     image {
         z-index: 1;
-        margin-top: 0%;
     }
     
     .get-quote {
@@ -42,6 +41,33 @@
         top: 290px;
         animation: mymove 4s infinite;
         animation-timing-function: ease-in-out;
+    }
+    
+    @media (min-width: 1800px) {
+        .get-quote {
+            z-index: 2;
+            position: absolute;
+            left: 881.25px;
+            top: 331.25px;
+            animation: mymove 4s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .always-secure {
+            z-index: 2;
+            position: absolute;
+            left: 818.75px;
+            top: 500px;
+            animation: mymove 4s infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .skip-paperwork {
+            z-index: 2;
+            position: absolute;
+            left: 1400px;
+            top: 362.5px;
+            animation: mymove 4s infinite;
+            animation-timing-function: ease-in-out;
+        }
     }
     
     @keyframes mymove {
